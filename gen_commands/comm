@@ -1,0 +1,9 @@
+python calculator.py
+python -m unittest test_calculator.py
+
+git init
+git add .
+git commit -m "Add CI pipeline and tests"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/ci-cd-demo.git
+git push -u origin main
